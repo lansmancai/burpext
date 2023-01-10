@@ -8,7 +8,7 @@ public class BurpExtender implements IBurpExtender, IProxyListener {
 
     @Override
     public void registerExtenderCallbacks(final IBurpExtenderCallbacks callbacks) {
-        callbacks.setExtensionName("Her0in");
+        callbacks.setExtensionName("lansman");
         this.stdout = new PrintWriter(callbacks.getStdout(), true);
         callbacks.registerProxyListener(this);
     }
